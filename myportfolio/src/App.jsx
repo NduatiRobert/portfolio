@@ -1,20 +1,20 @@
+import React from 'react'
+import Navbar from "./Navbar.jsx";
+import "./App.css"
+import Hero from './Hero.jsx';
 
-function App() {
 
-
-
+const App = () => {
   return (
-    <div>
+  <div   className="bg-slate-600">
+    <Navbar/>
+    <Hero/>
 
-<h1 className="text-3xl font-bold underline text-fuchsia-500">
-      Hello world!
-    </h1>
-    </div>
-  )
+  </div>
 
-
-
-}
    
+  )
+}
 
 export default App
+
